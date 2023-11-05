@@ -1,7 +1,6 @@
-﻿namespace CommonWpf.Resposity.Shared
-{
-    public class Class1
-    {
+﻿namespace CommonWpf.Resposity.Shared;
 
-    }
+public class Class1
+{
+
 }

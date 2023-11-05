@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
-    <PackageReference Include="Prism.Core" Version="9.0.212-pre" />
-    <PackageReference Include="Prism.DryIoc" Version="9.0.212-pre" />
-    <PackageReference Include="Prism.Wpf" Version="9.0.212-pre" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="Prism.Core" Version="9.0.271-pre" />
+    <PackageReference Include="Prism.DryIoc" Version="9.0.271-pre" />
+    <PackageReference Include="Prism.Wpf" Version="9.0.271-pre" />
   </ItemGroup>
 
 </Project>

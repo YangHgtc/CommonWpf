@@ -47,7 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonWpf.Resposity.Shared"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonWpf.Business.Shared", "src\2-BusinessLayer\CommonWpf.Business.Shared\CommonWpf.Business.Shared.csproj", "{89279FC1-2AD9-4ECD-A34F-57843ECC7770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonWpf.Dto.Shared", "src\4-EntityLayer\CommonWpf.Dto.Shared\CommonWpf.Dto.Shared.csproj", "{FC0BE69C-347D-4E4D-8880-CC71A266CB03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonWpf.Dto.Shared", "src\4-EntityLayer\CommonWpf.Dto.Shared\CommonWpf.Dto.Shared.csproj", "{FC0BE69C-347D-4E4D-8880-CC71A266CB03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonWpf.Logger", "src\6-CommonLayer\CommonWpf.Logger\CommonWpf.Logger.csproj", "{26C82296-4AF2-4864-8AD6-8FD1A28435F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonWpf.Configuration", "src\6-CommonLayer\CommonWpf.Configuration\CommonWpf.Configuration.csproj", "{581C91F1-12EB-4804-AA05-FADC7B469630}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{FC0BE69C-347D-4E4D-8880-CC71A266CB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0BE69C-347D-4E4D-8880-CC71A266CB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0BE69C-347D-4E4D-8880-CC71A266CB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C82296-4AF2-4864-8AD6-8FD1A28435F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C82296-4AF2-4864-8AD6-8FD1A28435F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C82296-4AF2-4864-8AD6-8FD1A28435F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C82296-4AF2-4864-8AD6-8FD1A28435F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581C91F1-12EB-4804-AA05-FADC7B469630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581C91F1-12EB-4804-AA05-FADC7B469630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581C91F1-12EB-4804-AA05-FADC7B469630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581C91F1-12EB-4804-AA05-FADC7B469630}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +127,8 @@ Global
 		{A5388CB3-5668-4F56-A3A3-1B0F77109B1F} = {5EA85150-CF32-47C6-AEB5-4B355475434B}
 		{89279FC1-2AD9-4ECD-A34F-57843ECC7770} = {28F5D591-DC74-4ACE-B854-7DD425928242}
 		{FC0BE69C-347D-4E4D-8880-CC71A266CB03} = {C2BAC107-911B-4291-BF5A-2F2ACAD98D06}
+		{26C82296-4AF2-4864-8AD6-8FD1A28435F5} = {EBD996F6-1AFD-4E72-A146-088CEDEF07B0}
+		{581C91F1-12EB-4804-AA05-FADC7B469630} = {EBD996F6-1AFD-4E72-A146-088CEDEF07B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB2FF44C-23B4-4A8A-80A2-A1243D8313A0}

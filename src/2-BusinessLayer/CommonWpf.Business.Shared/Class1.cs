@@ -1,7 +1,6 @@
-﻿namespace CommonWpf.Business.Shared
-{
-    public class Class1
-    {
+﻿namespace CommonWpf.Business.Shared;
 
-    }
+public class Class1
+{
+
 }

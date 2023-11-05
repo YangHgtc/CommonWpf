@@ -1,11 +1,2 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="NLog" Version="5.2.3" />
-    <PackageReference Include="NLog.Extensions.Logging" Version="5.3.3" />
-  </ItemGroup>
-
 </Project>

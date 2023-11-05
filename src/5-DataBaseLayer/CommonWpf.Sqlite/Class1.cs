@@ -1,7 +1,6 @@
-﻿namespace CommonWpf.Sqlite
-{
-    public class Class1
-    {
+﻿namespace CommonWpf.Sqlite;
 
-    }
+public class Class1
+{
+
 }

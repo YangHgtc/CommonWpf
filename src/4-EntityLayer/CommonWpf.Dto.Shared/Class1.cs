@@ -1,7 +1,6 @@
-﻿namespace CommonWpf.Dto.Shared
-{
-    public class Class1
-    {
+﻿namespace CommonWpf.Dto.Shared;
 
-    }
+public class Class1
+{
+
 }

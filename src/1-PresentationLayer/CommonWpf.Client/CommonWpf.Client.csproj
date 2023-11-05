@@ -1,16 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <!-- 设置 Debug 模式下发布 .exe -->
+    <OutputType Condition="'$(Configuration)' == 'Debug'">Exe</OutputType>
+
+    <!-- 设置 Release 模式下发布 .winexe -->
+    <OutputType Condition="'$(Configuration)' == 'Release'">WinExe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\6-CommonLayer\CommonWpf.Assets\CommonWpf.Assets.csproj" />
+    <ProjectReference Include="..\..\6-CommonLayer\CommonWpf.Configuration\CommonWpf.Configuration.csproj" />
+    <ProjectReference Include="..\..\6-CommonLayer\CommonWpf.Logger\CommonWpf.Logger.csproj" />
     <ProjectReference Include="..\..\6-CommonLayer\CommonWpf.Mvvm\CommonWpf.Mvvm.csproj" />
     <ProjectReference Include="..\..\6-CommonLayer\CommonWpf.Util\CommonWpf.Util.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>

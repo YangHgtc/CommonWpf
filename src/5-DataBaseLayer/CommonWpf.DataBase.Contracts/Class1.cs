@@ -1,7 +1,6 @@
-﻿namespace CommonWpf.DataBase.Contracts
-{
-    public class Class1
-    {
+﻿namespace CommonWpf.DataBase.Contracts;
 
-    }
+public class Class1
+{
+
 }

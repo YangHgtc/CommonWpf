@@ -1,7 +1,6 @@
-﻿namespace CommonWpf.Entity
-{
-    public class Class1
-    {
+﻿namespace CommonWpf.Entity;
 
-    }
+public class Class1
+{
+
 }
