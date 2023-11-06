@@ -2,7 +2,7 @@ namespace CommonWpf.Configuration
 {
     public sealed class ConnectionOption
     {
-        public const string ConnectionString = nameof(ConnectionString);
+        public const string Position = nameof(Position);
 
         public string Sqlite { get; set; }
 

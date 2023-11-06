@@ -12,6 +12,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DryIoc.Microsoft.DependencyInjection" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\6-CommonLayer\CommonWpf.Assets\CommonWpf.Assets.csproj" />
     <ProjectReference Include="..\..\6-CommonLayer\CommonWpf.Configuration\CommonWpf.Configuration.csproj" />
     <ProjectReference Include="..\..\6-CommonLayer\CommonWpf.Logger\CommonWpf.Logger.csproj" />

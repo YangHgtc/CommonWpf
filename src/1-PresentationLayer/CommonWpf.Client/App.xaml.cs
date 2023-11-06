@@ -1,7 +1,9 @@
 using System.Windows;
+using CommonWpf.Client.Extensions;
 using CommonWpf.Client.Views;
-using CommonWpf.Configuration;
-using CommonWpf.Logger;
+using DryIoc.Microsoft.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CommonWpf.Client;
 
@@ -22,9 +24,14 @@ public partial class App
 
     protected override void RegisterTypes(IContainerRegistry containerRegistry)
     {
-        containerRegistry.AddConfiguration();
-        containerRegistry.AddDatabase(Container);
-        containerRegistry.AddLog(Container);
+    }
+
+    protected override IContainerExtension CreateContainerExtension()
+    {
+        var services = new ServiceCollection();
+        services.AddConfiguration();
+        services.AddLog();
+        return new DryIocContainerExtension(new DryIoc.Container(CreateContainerRules()).WithDependencyInjectionAdapter(services));
     }
 
     protected override void OnExit(ExitEventArgs e)
